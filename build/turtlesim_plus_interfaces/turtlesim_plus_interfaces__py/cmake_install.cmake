@@ -1,8 +1,8 @@
-# Install script for directory: /home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/turtlesim_plus_interfaces/turtlesim_plus_interfaces__py
+# Install script for directory: /home/lworakan/FRA502-LAB-6648/build/turtlesim_plus_interfaces/turtlesim_plus_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/install/turtlesim_plus_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/lworakan/FRA502-LAB-6648/install/turtlesim_plus_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

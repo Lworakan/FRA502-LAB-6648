@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/controller_interfaces
+CMAKE_SOURCE_DIR = /home/lworakan/FRA502-LAB-6648/src/controller_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/controller_interfaces
+CMAKE_BINARY_DIR = /home/lworakan/FRA502-LAB-6648/build/controller_interfaces
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/controller_interfaces/CMakeFiles /home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/controller_interfaces//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lworakan/FRA502-LAB-6648/build/controller_interfaces/CMakeFiles /home/lworakan/FRA502-LAB-6648/build/controller_interfaces//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/controller_interfaces/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lworakan/FRA502-LAB-6648/build/controller_interfaces/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

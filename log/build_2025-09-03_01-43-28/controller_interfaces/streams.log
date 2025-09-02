@@ -1,0 +1,269 @@
+[0.011s] Invoking command in '/home/lworakan/FRA502-LAB-6648/build/controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lworakan/FRA502-LAB-6648/src/controller_interfaces -DCMAKE_INSTALL_PREFIX=/home/lworakan/FRA502-LAB-6648/install/controller_interfaces
+[0.048s] -- The C compiler identification is GNU 11.4.0
+[0.089s] -- The CXX compiler identification is GNU 11.4.0
+[0.094s] -- Detecting C compiler ABI info
+[0.137s] -- Detecting C compiler ABI info - done
+[0.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.142s] -- Detecting C compile features
+[0.142s] -- Detecting C compile features - done
+[0.143s] -- Detecting CXX compiler ABI info
+[0.187s] -- Detecting CXX compiler ABI info - done
+[0.193s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.194s] -- Detecting CXX compile features
+[0.194s] -- Detecting CXX compile features - done
+[0.195s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.420s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.470s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.490s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.492s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.496s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.502s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.511s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.526s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.703s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.927s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.012s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.032s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.033s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.050s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.050s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.050s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.050s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.066s] -- Found PythonExtra: .so  
+[1.096s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.106s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.107s] -- Added test 'lint_cmake' to check CMake code style
+[1.108s] -- Added test 'xmllint' to check XML markup files
+[1.109s] -- Configuring done
+[1.126s] -- Generating done
+[1.139s] -- Build files have been written to: /home/lworakan/FRA502-LAB-6648/build/controller_interfaces
+[1.145s] Invoked command in '/home/lworakan/FRA502-LAB-6648/build/controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lworakan/FRA502-LAB-6648/src/controller_interfaces -DCMAKE_INSTALL_PREFIX=/home/lworakan/FRA502-LAB-6648/install/controller_interfaces
+[1.145s] Invoking command in '/home/lworakan/FRA502-LAB-6648/build/controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lworakan/FRA502-LAB-6648/build/controller_interfaces -- -j32 -l32
+[1.176s] [  2%] Generating C code for ROS interfaces
+[1.180s] [  5%] Generating C++ code for ROS interfaces
+[1.190s] [  5%] Built target ament_cmake_python_copy_controller_interfaces
+[1.342s] running egg_info
+[1.355s] creating controller_interfaces.egg-info
+[1.355s] writing controller_interfaces.egg-info/PKG-INFO
+[1.355s] writing dependency_links to controller_interfaces.egg-info/dependency_links.txt
+[1.355s] writing top-level names to controller_interfaces.egg-info/top_level.txt
+[1.356s] writing manifest file 'controller_interfaces.egg-info/SOURCES.txt'
+[1.393s] reading manifest file 'controller_interfaces.egg-info/SOURCES.txt'
+[1.394s] writing manifest file 'controller_interfaces.egg-info/SOURCES.txt'
+[1.413s] [  5%] Built target ament_cmake_python_build_controller_interfaces_egg
+[1.432s] [  7%] Building C object CMakeFiles/controller_interfaces__rosidl_generator_c.dir/rosidl_generator_c/controller_interfaces/srv/detail/set_max_pizza__functions.c.o
+[1.434s] [ 10%] Building C object CMakeFiles/controller_interfaces__rosidl_generator_c.dir/rosidl_generator_c/controller_interfaces/srv/detail/set_param__functions.c.o
+[1.444s] [ 10%] Built target controller_interfaces__cpp
+[1.452s] [ 12%] Generating C++ introspection for ROS interfaces
+[1.452s] [ 17%] Generating C++ type support for eProsima Fast-RTPS
+[1.452s] [ 17%] Generating C++ type support dispatch for ROS interfaces
+[1.472s] [ 20%] Linking C shared library libcontroller_interfaces__rosidl_generator_c.so
+[1.499s] [ 20%] Built target controller_interfaces__rosidl_generator_c
+[1.506s] [ 25%] Generating C type support for eProsima Fast-RTPS
+[1.506s] [ 25%] Generating C type support dispatch for ROS interfaces
+[1.507s] [ 28%] Generating C introspection for ROS interfaces
+[1.629s] [ 30%] Building CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_interfaces/srv/set_max_pizza__type_support.cpp.o
+[1.630s] [ 33%] Building CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_interfaces/srv/set_param__type_support.cpp.o
+[1.648s] [ 38%] Building CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/set_max_pizza__type_support.cpp.o
+[1.648s] [ 38%] Building CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_interfaces/srv/detail/set_param__type_support.cpp.o
+[1.684s] [ 43%] Building CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_interfaces/srv/detail/dds_fastrtps/set_max_pizza__type_support.cpp.o
+[1.684s] [ 43%] Building CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_interfaces/srv/detail/dds_fastrtps/set_param__type_support.cpp.o
+[1.726s] [ 48%] Building CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_interfaces/srv/detail/set_max_pizza__type_support_c.cpp.o
+[1.726s] [ 48%] Building CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_interfaces/srv/detail/set_param__type_support_c.cpp.o
+[1.796s] [ 53%] Building CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_interfaces/srv/set_max_pizza__type_support.cpp.o
+[1.797s] [ 53%] Building CXX object CMakeFiles/controller_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_interfaces/srv/set_param__type_support.cpp.o
+[1.807s] [ 56%] Linking CXX shared library libcontroller_interfaces__rosidl_typesupport_cpp.so
+[1.820s] [ 58%] Linking CXX shared library libcontroller_interfaces__rosidl_typesupport_c.so
+[1.832s] [ 61%] Building C object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_interfaces/srv/detail/set_max_pizza__type_support.c.o
+[1.835s] [ 64%] Building C object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_interfaces/srv/detail/set_param__type_support.c.o
+[1.835s] [ 64%] Built target controller_interfaces__rosidl_typesupport_cpp
+[1.849s] [ 64%] Built target controller_interfaces__rosidl_typesupport_c
+[1.868s] [ 66%] Linking C shared library libcontroller_interfaces__rosidl_typesupport_introspection_c.so
+[1.896s] [ 66%] Built target controller_interfaces__rosidl_typesupport_introspection_c
+[2.011s] [ 69%] Linking CXX shared library libcontroller_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.034s] [ 71%] Linking CXX shared library libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.064s] [ 71%] Built target controller_interfaces__rosidl_typesupport_fastrtps_c
+[2.082s] [ 71%] Built target controller_interfaces__rosidl_typesupport_introspection_cpp
+[2.092s] [ 74%] Linking CXX shared library libcontroller_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.163s] [ 74%] Built target controller_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.180s] [ 74%] Built target controller_interfaces
+[2.196s] [ 76%] Generating Python code for ROS interfaces
+[2.470s] [ 76%] Built target controller_interfaces__py
+[2.484s] [ 82%] Building C object CMakeFiles/controller_interfaces__rosidl_generator_py.dir/rosidl_generator_py/controller_interfaces/srv/_set_max_pizza_s.c.o
+[2.484s] [ 82%] Building C object CMakeFiles/controller_interfaces__rosidl_generator_py.dir/rosidl_generator_py/controller_interfaces/srv/_set_param_s.c.o
+[2.542s] [ 84%] Linking C shared library rosidl_generator_py/controller_interfaces/libcontroller_interfaces__rosidl_generator_py.so
+[2.574s] [ 84%] Built target controller_interfaces__rosidl_generator_py
+[2.588s] [ 87%] Building C object CMakeFiles/controller_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[2.589s] [ 89%] Building C object CMakeFiles/controller_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+[2.589s] [ 92%] Building C object CMakeFiles/controller_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_c.c.o
+[2.655s] [ 97%] Linking C shared library rosidl_generator_py/controller_interfaces/controller_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.655s] [ 97%] Linking C shared library rosidl_generator_py/controller_interfaces/controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.656s] [100%] Linking C shared library rosidl_generator_py/controller_interfaces/controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.684s] [100%] Built target controller_interfaces__rosidl_typesupport_c__pyext
+[2.684s] [100%] Built target controller_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.685s] [100%] Built target controller_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.693s] Invoked command in '/home/lworakan/FRA502-LAB-6648/build/controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lworakan/FRA502-LAB-6648/build/controller_interfaces -- -j32 -l32
+[2.694s] Invoking command in '/home/lworakan/FRA502-LAB-6648/build/controller_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lworakan/FRA502-LAB-6648/build/controller_interfaces
+[2.700s] -- Install configuration: ""
+[2.700s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/ament_index/resource_index/rosidl_interfaces/controller_interfaces
+[2.700s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[2.701s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg
+[2.701s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.701s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[2.701s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[2.701s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__functions.h
+[2.701s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_max_pizza__struct.h
+[2.701s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__struct.h
+[2.701s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__functions.c
+[2.701s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_max_pizza__functions.c
+[2.701s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_max_pizza__type_support.h
+[2.701s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__type_support.h
+[2.701s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_max_pizza__functions.h
+[2.701s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/set_param.h
+[2.701s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/set_max_pizza.h
+[2.702s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/environment/library_path.sh
+[2.702s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/environment/library_path.dsv
+[2.702s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_c.so
+[2.702s] -- Set runtime path of "/home/lworakan/FRA502-LAB-6648/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_c.so" to ""
+[2.702s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[2.702s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg
+[2.702s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.702s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[2.702s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[2.702s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__rosidl_typesupport_fastrtps_c.h
+[2.703s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_max_pizza__rosidl_typesupport_fastrtps_c.h
+[2.703s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.703s] -- Set runtime path of "/home/lworakan/FRA502-LAB-6648/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.703s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[2.703s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg
+[2.703s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.703s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[2.703s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[2.703s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_max_pizza__struct.hpp
+[2.703s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__builder.hpp
+[2.703s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__traits.hpp
+[2.703s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_max_pizza__builder.hpp
+[2.704s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__type_support.hpp
+[2.704s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_max_pizza__traits.hpp
+[2.704s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__struct.hpp
+[2.704s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_max_pizza__type_support.hpp
+[2.704s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/set_param.hpp
+[2.704s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/set_max_pizza.hpp
+[2.704s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[2.704s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg
+[2.704s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.704s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[2.704s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[2.704s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__rosidl_typesupport_fastrtps_cpp.hpp
+[2.704s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/dds_fastrtps
+[2.704s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_max_pizza__rosidl_typesupport_fastrtps_cpp.hpp
+[2.705s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.705s] -- Set runtime path of "/home/lworakan/FRA502-LAB-6648/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.705s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[2.705s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg
+[2.705s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.705s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[2.705s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[2.705s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_max_pizza__type_support.c
+[2.706s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__type_support.c
+[2.706s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_max_pizza__rosidl_typesupport_introspection_c.h
+[2.706s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__rosidl_typesupport_introspection_c.h
+[2.706s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_c.so
+[2.706s] -- Set runtime path of "/home/lworakan/FRA502-LAB-6648/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.706s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_c.so
+[2.706s] -- Set runtime path of "/home/lworakan/FRA502-LAB-6648/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_c.so" to ""
+[2.706s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces
+[2.706s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv
+[2.706s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail
+[2.706s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_max_pizza__rosidl_typesupport_introspection_cpp.hpp
+[2.706s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__type_support.cpp
+[2.706s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_max_pizza__type_support.cpp
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/include/controller_interfaces/controller_interfaces/srv/detail/set_param__rosidl_typesupport_introspection_cpp.hpp
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.707s] -- Set runtime path of "/home/lworakan/FRA502-LAB-6648/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_cpp.so
+[2.707s] -- Set runtime path of "/home/lworakan/FRA502-LAB-6648/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/environment/pythonpath.sh
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/environment/pythonpath.dsv
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/libcontroller_interfaces__rosidl_generator_py.so
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/_controller_interfaces_s.ep.rosidl_typesupport_c.c
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_set_max_pizza_s.c
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_set_max_pizza.py
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_set_param_s.c
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_set_param.py
+[2.707s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/__init__.py
+[2.708s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/__init__.py
+[2.708s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.730s] Listing '/home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces'...
+[2.730s] Compiling '/home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/__init__.py'...
+[2.730s] Listing '/home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv'...
+[2.730s] Compiling '/home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/__init__.py'...
+[2.730s] Compiling '/home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_set_max_pizza.py'...
+[2.730s] Compiling '/home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/srv/_set_param.py'...
+[2.733s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.733s] -- Set runtime path of "/home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.733s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.733s] -- Set runtime path of "/home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.733s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.733s] -- Set runtime path of "/home/lworakan/FRA502-LAB-6648/install/controller_interfaces/local/lib/python3.10/dist-packages/controller_interfaces/controller_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.733s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_py.so
+[2.733s] -- Set runtime path of "/home/lworakan/FRA502-LAB-6648/install/controller_interfaces/lib/libcontroller_interfaces__rosidl_generator_py.so" to ""
+[2.733s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/srv/SetMaxPizza.idl
+[2.733s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/srv/SetParam.idl
+[2.733s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/srv/SetMaxPizza.srv
+[2.733s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/srv/SetMaxPizza_Request.msg
+[2.733s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/srv/SetMaxPizza_Response.msg
+[2.733s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/srv/SetParam.srv
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/srv/SetParam_Request.msg
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/srv/SetParam_Response.msg
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/ament_index/resource_index/package_run_dependencies/controller_interfaces
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/ament_index/resource_index/parent_prefix_path/controller_interfaces
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/environment/ament_prefix_path.sh
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/environment/ament_prefix_path.dsv
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/environment/path.sh
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/environment/path.dsv
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/local_setup.bash
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/local_setup.sh
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/local_setup.zsh
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/local_setup.dsv
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/package.dsv
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/ament_index/resource_index/packages/controller_interfaces
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_cExport.cmake
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_cppExport.cmake
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cExport.cmake
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.734s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.735s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cppExport.cmake
+[2.735s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.735s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_pyExport.cmake
+[2.735s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/export_controller_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.735s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.735s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.735s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.735s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.735s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.735s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.735s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.735s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfacesConfig.cmake
+[2.736s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/cmake/controller_interfacesConfig-version.cmake
+[2.736s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/controller_interfaces/share/controller_interfaces/package.xml
+[2.737s] Invoked command in '/home/lworakan/FRA502-LAB-6648/build/controller_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lworakan/FRA502-LAB-6648/build/controller_interfaces

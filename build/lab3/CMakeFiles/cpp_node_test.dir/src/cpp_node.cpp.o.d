@@ -1,7 +1,7 @@
 CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o: \
- /home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/src/lab3/src/cpp_node.cpp \
+ /home/lworakan/FRA502-LAB-6648/src/lab3/src/cpp_node.cpp \
  /usr/include/stdc-predef.h \
- /home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/src/lab3/include/lab3/cpp_header.hpp \
+ /home/lworakan/FRA502-LAB-6648/src/lab3/include/lab3/cpp_header.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

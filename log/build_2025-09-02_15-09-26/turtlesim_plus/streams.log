@@ -1,9 +1,0 @@
-[0.010s] Invoking command in '/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/turtlesim_plus -- -j32 -l32
-[0.046s] Built target ament_cmake_python_copy_turtlesim_plus
-[0.170s] running egg_info
-[0.179s] writing turtlesim_plus.egg-info/PKG-INFO
-[0.179s] writing dependency_links to turtlesim_plus.egg-info/dependency_links.txt
-[0.179s] writing top-level names to turtlesim_plus.egg-info/top_level.txt
-[0.206s] reading manifest file 'turtlesim_plus.egg-info/SOURCES.txt'
-[0.207s] writing manifest file 'turtlesim_plus.egg-info/SOURCES.txt'
-[0.224s] Built target ament_cmake_python_build_turtlesim_plus_egg

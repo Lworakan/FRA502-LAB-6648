@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/install/controller_interfaces"}
+: ${AMENT_CURRENT_PREFIX:="/home/lworakan/FRA502-LAB-6648/install/controller_interfaces"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

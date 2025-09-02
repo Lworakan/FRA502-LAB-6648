@@ -1,0 +1,89 @@
+[0.010s] Invoking command in '/home/lworakan/FRA502-LAB-6648/build/lab3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lworakan/FRA502-LAB-6648/src/lab3 -DCMAKE_INSTALL_PREFIX=/home/lworakan/FRA502-LAB-6648/install/lab3
+[0.041s] -- The C compiler identification is GNU 11.4.0
+[0.073s] -- The CXX compiler identification is GNU 11.4.0
+[0.078s] -- Detecting C compiler ABI info
+[0.125s] -- Detecting C compiler ABI info - done
+[0.130s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.130s] -- Detecting C compile features
+[0.130s] -- Detecting C compile features - done
+[0.131s] -- Detecting CXX compiler ABI info
+[0.181s] -- Detecting CXX compiler ABI info - done
+[0.186s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.187s] -- Detecting CXX compile features
+[0.187s] -- Detecting CXX compile features - done
+[0.188s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.409s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.458s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.478s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.480s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.484s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.489s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.497s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.523s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.523s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.580s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.596s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.619s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.623s] -- Looking for pthread.h
+[0.674s] -- Looking for pthread.h - found
+[0.674s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.720s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.721s] -- Found Threads: TRUE  
+[0.746s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.826s] -- Configuring done
+[0.833s] -- Generating done
+[0.836s] -- Build files have been written to: /home/lworakan/FRA502-LAB-6648/build/lab3
+[0.844s] Invoked command in '/home/lworakan/FRA502-LAB-6648/build/lab3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lworakan/FRA502-LAB-6648/src/lab3 -DCMAKE_INSTALL_PREFIX=/home/lworakan/FRA502-LAB-6648/install/lab3
+[0.845s] Invoking command in '/home/lworakan/FRA502-LAB-6648/build/lab3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lworakan/FRA502-LAB-6648/build/lab3 -- -j32 -l32
+[0.879s] [ 50%] Building CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o
+[0.885s] [ 50%] Built target ament_cmake_python_copy_lab3
+[1.013s] running egg_info
+[1.016s] [100%] Linking CXX executable cpp_node_test
+[1.023s] creating lab3.egg-info
+[1.023s] writing lab3.egg-info/PKG-INFO
+[1.023s] writing dependency_links to lab3.egg-info/dependency_links.txt
+[1.023s] writing top-level names to lab3.egg-info/top_level.txt
+[1.024s] writing manifest file 'lab3.egg-info/SOURCES.txt'
+[1.053s] reading manifest file 'lab3.egg-info/SOURCES.txt'
+[1.054s] writing manifest file 'lab3.egg-info/SOURCES.txt'
+[1.073s] [100%] Built target ament_cmake_python_build_lab3_egg
+[1.078s] [100%] Built target cpp_node_test
+[1.087s] Invoked command in '/home/lworakan/FRA502-LAB-6648/build/lab3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lworakan/FRA502-LAB-6648/build/lab3 -- -j32 -l32
+[1.093s] Invoking command in '/home/lworakan/FRA502-LAB-6648/build/lab3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lworakan/FRA502-LAB-6648/build/lab3
+[1.097s] -- Install configuration: ""
+[1.098s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/lab3/environment/pythonpath.sh
+[1.098s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/lab3/environment/pythonpath.dsv
+[1.098s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/local/lib/python3.10/dist-packages/lab3-0.0.0-py3.10.egg-info
+[1.098s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/local/lib/python3.10/dist-packages/lab3-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.098s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/local/lib/python3.10/dist-packages/lab3-0.0.0-py3.10.egg-info/top_level.txt
+[1.098s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/local/lib/python3.10/dist-packages/lab3-0.0.0-py3.10.egg-info/PKG-INFO
+[1.098s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/local/lib/python3.10/dist-packages/lab3-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.098s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/local/lib/python3.10/dist-packages/lab3
+[1.098s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/local/lib/python3.10/dist-packages/lab3/__init__.py
+[1.098s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/local/lib/python3.10/dist-packages/lab3/dummy_module.py
+[1.121s] Listing '/home/lworakan/FRA502-LAB-6648/install/lab3/local/lib/python3.10/dist-packages/lab3'...
+[1.121s] Compiling '/home/lworakan/FRA502-LAB-6648/install/lab3/local/lib/python3.10/dist-packages/lab3/__init__.py'...
+[1.121s] Compiling '/home/lworakan/FRA502-LAB-6648/install/lab3/local/lib/python3.10/dist-packages/lab3/dummy_module.py'...
+[1.124s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/lib/lab3/dummy_script.py
+[1.124s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/lib/lab3/eater.py
+[1.124s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/lib/lab3/killer.py
+[1.124s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/lib/lab3/cpp_node_test
+[1.124s] -- Set runtime path of "/home/lworakan/FRA502-LAB-6648/install/lab3/lib/lab3/cpp_node_test" to ""
+[1.124s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/lab3/share/lab3
+[1.124s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/lab3/lab3_bringup.launch.py
+[1.124s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/ament_index/resource_index/package_run_dependencies/lab3
+[1.124s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/ament_index/resource_index/parent_prefix_path/lab3
+[1.124s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/lab3/environment/ament_prefix_path.sh
+[1.124s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/lab3/environment/ament_prefix_path.dsv
+[1.124s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/lab3/environment/path.sh
+[1.124s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/lab3/environment/path.dsv
+[1.124s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/lab3/local_setup.bash
+[1.124s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/lab3/local_setup.sh
+[1.124s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/lab3/local_setup.zsh
+[1.124s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/lab3/local_setup.dsv
+[1.125s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/lab3/package.dsv
+[1.125s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/ament_index/resource_index/packages/lab3
+[1.125s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/lab3/cmake/lab3Config.cmake
+[1.125s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/lab3/cmake/lab3Config-version.cmake
+[1.125s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/lab3/share/lab3/package.xml
+[1.126s] Invoked command in '/home/lworakan/FRA502-LAB-6648/build/lab3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lworakan/FRA502-LAB-6648/build/lab3

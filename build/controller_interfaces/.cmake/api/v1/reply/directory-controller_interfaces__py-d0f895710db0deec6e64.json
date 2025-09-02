@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "controller_interfaces__py",
+		"source" : "/home/lworakan/FRA502-LAB-6648/build/controller_interfaces/controller_interfaces__py"
+	}
+}

@@ -1,8 +1,8 @@
-# Install script for directory: /home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/controller_interfaces/controller_interfaces__py
+# Install script for directory: /home/lworakan/FRA502-LAB-6648/build/controller_interfaces/controller_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/install/controller_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/lworakan/FRA502-LAB-6648/install/controller_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

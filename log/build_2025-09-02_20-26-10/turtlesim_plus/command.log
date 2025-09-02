@@ -1,4 +1,0 @@
-Invoking command in '/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/turtlesim_plus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/turtlesim_plus -- -j32 -l32
-Invoked command in '/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/turtlesim_plus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/turtlesim_plus -- -j32 -l32
-Invoking command in '/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/turtlesim_plus': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/turtlesim_plus
-Invoked command in '/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/turtlesim_plus' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/turtlesim_plus

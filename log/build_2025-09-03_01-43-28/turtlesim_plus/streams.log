@@ -1,0 +1,105 @@
+[0.008s] Invoking command in '/home/lworakan/FRA502-LAB-6648/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lworakan/FRA502-LAB-6648/src/turtlesim_plus/turtlesim_plus -DCMAKE_INSTALL_PREFIX=/home/lworakan/FRA502-LAB-6648/install/turtlesim_plus
+[0.041s] -- The C compiler identification is GNU 11.4.0
+[0.077s] -- The CXX compiler identification is GNU 11.4.0
+[0.081s] -- Detecting C compiler ABI info
+[0.126s] -- Detecting C compiler ABI info - done
+[0.129s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.130s] -- Detecting C compile features
+[0.130s] -- Detecting C compile features - done
+[0.131s] -- Detecting CXX compiler ABI info
+[0.178s] -- Detecting CXX compiler ABI info - done
+[0.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.184s] -- Detecting CXX compile features
+[0.185s] -- Detecting CXX compile features - done
+[0.186s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.413s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.465s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.491s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.493s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.497s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.503s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.535s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.536s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.594s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.609s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.637s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.641s] -- Looking for pthread.h
+[0.686s] -- Looking for pthread.h - found
+[0.686s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.738s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.739s] -- Found Threads: TRUE  
+[0.769s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.851s] -- Configuring done
+[0.855s] -- Generating done
+[0.857s] -- Build files have been written to: /home/lworakan/FRA502-LAB-6648/build/turtlesim_plus
+[0.863s] Invoked command in '/home/lworakan/FRA502-LAB-6648/build/turtlesim_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lworakan/FRA502-LAB-6648/src/turtlesim_plus/turtlesim_plus -DCMAKE_INSTALL_PREFIX=/home/lworakan/FRA502-LAB-6648/install/turtlesim_plus
+[0.865s] Invoking command in '/home/lworakan/FRA502-LAB-6648/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lworakan/FRA502-LAB-6648/build/turtlesim_plus -- -j32 -l32
+[0.906s] Built target ament_cmake_python_copy_turtlesim_plus
+[1.028s] running egg_info
+[1.038s] creating turtlesim_plus.egg-info
+[1.038s] writing turtlesim_plus.egg-info/PKG-INFO
+[1.038s] writing dependency_links to turtlesim_plus.egg-info/dependency_links.txt
+[1.038s] writing top-level names to turtlesim_plus.egg-info/top_level.txt
+[1.038s] writing manifest file 'turtlesim_plus.egg-info/SOURCES.txt'
+[1.069s] reading manifest file 'turtlesim_plus.egg-info/SOURCES.txt'
+[1.069s] writing manifest file 'turtlesim_plus.egg-info/SOURCES.txt'
+[1.091s] Built target ament_cmake_python_build_turtlesim_plus_egg
+[1.094s] Invoked command in '/home/lworakan/FRA502-LAB-6648/build/turtlesim_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lworakan/FRA502-LAB-6648/build/turtlesim_plus -- -j32 -l32
+[1.094s] Invoking command in '/home/lworakan/FRA502-LAB-6648/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lworakan/FRA502-LAB-6648/build/turtlesim_plus
+[1.099s] -- Install configuration: ""
+[1.100s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/turtlesim_plus/environment/pythonpath.sh
+[1.100s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/turtlesim_plus/environment/pythonpath.dsv
+[1.100s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus-1.0.0-py3.10.egg-info
+[1.100s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus-1.0.0-py3.10.egg-info/SOURCES.txt
+[1.101s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus-1.0.0-py3.10.egg-info/top_level.txt
+[1.101s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus-1.0.0-py3.10.egg-info/PKG-INFO
+[1.101s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus-1.0.0-py3.10.egg-info/dependency_links.txt
+[1.101s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus
+[1.101s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/entity.py
+[1.101s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image
+[1.101s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/map
+[1.101s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/map/map.png
+[1.101s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle
+[1.101s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/humble.png
+[1.101s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/rolling.png
+[1.101s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/eloquent.png
+[1.101s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/ardent.png
+[1.101s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/bouncy.png
+[1.101s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/otto.png
+[1.102s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/galactic.png
+[1.102s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/foxy.png
+[1.102s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/crystal.png
+[1.102s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle/dashing.png
+[1.102s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/object
+[1.102s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/object/pizza.png
+[1.102s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/object/parcel.png
+[1.102s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/ros2_plugins.py
+[1.102s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/__init__.py
+[1.134s] Listing '/home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus'...
+[1.134s] Compiling '/home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/__init__.py'...
+[1.134s] Compiling '/home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/entity.py'...
+[1.134s] Listing '/home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image'...
+[1.134s] Listing '/home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/map'...
+[1.134s] Listing '/home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/object'...
+[1.134s] Listing '/home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/image/turtle'...
+[1.134s] Compiling '/home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/local/lib/python3.10/dist-packages/turtlesim_plus/ros2_plugins.py'...
+[1.134s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/lib/turtlesim_plus/turtlesim_plus_node.py
+[1.134s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/lib/turtlesim_plus/pizza_on_click.py
+[1.134s] -- Up-to-date: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/turtlesim_plus
+[1.134s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/ament_index/resource_index/package_run_dependencies/turtlesim_plus
+[1.134s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/ament_index/resource_index/parent_prefix_path/turtlesim_plus
+[1.134s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/turtlesim_plus/environment/ament_prefix_path.sh
+[1.134s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/turtlesim_plus/environment/ament_prefix_path.dsv
+[1.134s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/turtlesim_plus/environment/path.sh
+[1.134s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/turtlesim_plus/environment/path.dsv
+[1.134s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/turtlesim_plus/local_setup.bash
+[1.134s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/turtlesim_plus/local_setup.sh
+[1.134s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/turtlesim_plus/local_setup.zsh
+[1.134s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/turtlesim_plus/local_setup.dsv
+[1.134s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/turtlesim_plus/package.dsv
+[1.134s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/ament_index/resource_index/packages/turtlesim_plus
+[1.134s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/turtlesim_plus/cmake/turtlesim_plusConfig.cmake
+[1.135s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/turtlesim_plus/cmake/turtlesim_plusConfig-version.cmake
+[1.135s] -- Installing: /home/lworakan/FRA502-LAB-6648/install/turtlesim_plus/share/turtlesim_plus/package.xml
+[1.135s] Invoked command in '/home/lworakan/FRA502-LAB-6648/build/turtlesim_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lworakan/FRA502-LAB-6648/build/turtlesim_plus

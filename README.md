@@ -126,12 +126,12 @@ FRA502-LAB-StudentID/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/YOUR_REPO/FRA502-LAB-6648v2.git
+   git clone https://github.com/FRA502-LAB-6648.git
    ```
 
 2. **Navigate to workspace and build**:
    ```bash
-   cd FRA502-LAB-6648v2/
+   cd FRA502-LAB-6648/
    colcon build
    ```
 

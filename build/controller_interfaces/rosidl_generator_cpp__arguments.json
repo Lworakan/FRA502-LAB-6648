@@ -1,10 +1,10 @@
 {
   "package_name": "controller_interfaces",
-  "output_dir": "/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/controller_interfaces/rosidl_generator_cpp/controller_interfaces",
+  "output_dir": "/home/lworakan/FRA502-LAB-6648/build/controller_interfaces/rosidl_generator_cpp/controller_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/controller_interfaces/rosidl_adapter/controller_interfaces:srv/SetMaxPizza.idl",
-    "/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/controller_interfaces/rosidl_adapter/controller_interfaces:srv/SetParam.idl"
+    "/home/lworakan/FRA502-LAB-6648/build/controller_interfaces/rosidl_adapter/controller_interfaces:srv/SetMaxPizza.idl",
+    "/home/lworakan/FRA502-LAB-6648/build/controller_interfaces/rosidl_adapter/controller_interfaces:srv/SetParam.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -56,8 +56,8 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/controller_interfaces/rosidl_adapter/controller_interfaces/srv/SetMaxPizza.idl",
-    "/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/controller_interfaces/rosidl_adapter/controller_interfaces/srv/SetParam.idl",
+    "/home/lworakan/FRA502-LAB-6648/build/controller_interfaces/rosidl_adapter/controller_interfaces/srv/SetMaxPizza.idl",
+    "/home/lworakan/FRA502-LAB-6648/build/controller_interfaces/rosidl_adapter/controller_interfaces/srv/SetParam.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",
