@@ -7,7 +7,6 @@ from launch.substitutions import LaunchConfiguration
 
 def generate_launch_description():
     
-    # Student namespace requirements - XXXX for eater, YYYY for killer
     eater_namespace_arg = DeclareLaunchArgument(
         'XXXX',
         default_value='eater_turtle',
@@ -26,12 +25,10 @@ def generate_launch_description():
         description='Sampling frequency for both nodes'
     )
     
-    # Launch configurations
     eater_turtle_ns = LaunchConfiguration('XXXX')
     killer_turtle_ns = LaunchConfiguration('YYYY')
     sampling_frequency = LaunchConfiguration('sampling_frequency')
 
-    # Turtlesim plus node with crazy mode disabled
     turtlesim_plus_node = Node(
         package='turtlesim_plus',
         executable='turtlesim_plus_node.py',
@@ -45,7 +42,6 @@ def generate_launch_description():
         output='screen'
     )
     
-    # Eater node with XXXX namespace
     eater_node = Node(
         package='lab3',
         executable='eater.py',
@@ -57,7 +53,6 @@ def generate_launch_description():
         output='screen'
     )
     
-    # Killer node with YYYY namespace  
     killer_node = Node(
         package='lab3',
         executable='killer.py',
@@ -70,7 +65,6 @@ def generate_launch_description():
         output='screen'
     )
     
-    # Service calls to setup turtles
     kill_turtle1 = ExecuteProcess(
         cmd=['ros2', 'service', 'call', '/remove_turtle', 'turtlesim/srv/Kill', '{name: turtle1}'],
         shell=False,
@@ -91,7 +85,6 @@ def generate_launch_description():
         output='screen'
     )
 
-    # Pizza on click node
     pizza_on_click = Node(
         package='turtlesim_plus',
         executable='pizza_on_click.py',
@@ -99,15 +92,12 @@ def generate_launch_description():
         output='screen'
     )
     
-    # Build launch description
     ld = LaunchDescription()
     
-    # Add launch arguments first
     ld.add_action(eater_namespace_arg)
     ld.add_action(killer_namespace_arg)
     ld.add_action(sampling_frequency_arg)
     
-    # Add nodes and processes
     ld.add_action(turtlesim_plus_node)
     ld.add_action(kill_turtle1)
     ld.add_action(spawn_eater)
