@@ -1,0 +1,1 @@
+Invoking command in '/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/lab3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/lab3 -- -j32 -l32

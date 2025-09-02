@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-850ab6b58b9065e00cef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "controller_interfaces__py",
+					"jsonFile" : "directory-controller_interfaces__py-4137b54863b39f94ef1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/controller_interfaces/controller_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "controller_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_controller_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_controller_interfaces_egg-baa7c7b2b8372dd368a1.json",
+					"name" : "ament_cmake_python_build_controller_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_controller_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_controller_interfaces-8d6d9f8df3861d03fe07.json",
+					"name" : "ament_cmake_python_copy_controller_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_interfaces-6793c727fb60ea746cea.json",
+					"name" : "controller_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_interfaces__cpp-a5bab179ed88d3af5947.json",
+					"name" : "controller_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "controller_interfaces__py::@13b663869d493286f353",
+					"jsonFile" : "target-controller_interfaces__py-8de104ec98ce88ca9367.json",
+					"name" : "controller_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_interfaces__rosidl_generator_c-bd671c283ce72083055f.json",
+					"name" : "controller_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_interfaces__rosidl_generator_py-4c5b50f4e950e0ae88df.json",
+					"name" : "controller_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_interfaces__rosidl_typesupport_c-76c1479649fee2b8b18f.json",
+					"name" : "controller_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_interfaces__rosidl_typesupport_c__pyext-65ce12a69392d0f46985.json",
+					"name" : "controller_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_interfaces__rosidl_typesupport_cpp-f0e4d195850b017fee08.json",
+					"name" : "controller_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_interfaces__rosidl_typesupport_fastrtps_c-18dac3e9eef9aed68436.json",
+					"name" : "controller_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_interfaces__rosidl_typesupport_fastrtps_c__pyext-fc6c63a08de38edcacfb.json",
+					"name" : "controller_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_interfaces__rosidl_typesupport_fastrtps_cpp-ef3e55eea966aadf3565.json",
+					"name" : "controller_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_interfaces__rosidl_typesupport_introspection_c-d306ac5199080228fc70.json",
+					"name" : "controller_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_interfaces__rosidl_typesupport_introspection_c__pyext-c28d0db998ec27de043f.json",
+					"name" : "controller_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_interfaces__rosidl_typesupport_introspection_cpp-e0a7372f23e1bfb4d58b.json",
+					"name" : "controller_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller_interfaces_uninstall-7530d72bf4375f487e95.json",
+					"name" : "controller_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-07d50fbccde783b38621.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/controller_interfaces",
+		"source" : "/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/controller_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

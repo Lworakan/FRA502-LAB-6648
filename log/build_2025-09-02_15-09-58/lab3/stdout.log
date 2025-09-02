@@ -1,0 +1,9 @@
+[100%] Built target cpp_node_test
+[100%] Built target ament_cmake_python_copy_lab3
+running egg_info
+writing lab3.egg-info/PKG-INFO
+writing dependency_links to lab3.egg-info/dependency_links.txt
+writing top-level names to lab3.egg-info/top_level.txt
+reading manifest file 'lab3.egg-info/SOURCES.txt'
+writing manifest file 'lab3.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_lab3_egg

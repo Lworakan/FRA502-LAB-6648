@@ -1,0 +1,10 @@
+[0.011s] Invoking command in '/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/lab3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/lab3 -- -j32 -l32
+[0.042s] [100%] Built target cpp_node_test
+[0.045s] [100%] Built target ament_cmake_python_copy_lab3
+[0.172s] running egg_info
+[0.181s] writing lab3.egg-info/PKG-INFO
+[0.182s] writing dependency_links to lab3.egg-info/dependency_links.txt
+[0.182s] writing top-level names to lab3.egg-info/top_level.txt
+[0.208s] reading manifest file 'lab3.egg-info/SOURCES.txt'
+[0.209s] writing manifest file 'lab3.egg-info/SOURCES.txt'
+[0.227s] [100%] Built target ament_cmake_python_build_lab3_egg

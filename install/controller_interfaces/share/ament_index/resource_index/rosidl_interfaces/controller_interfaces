@@ -1,0 +1,8 @@
+srv/SetMaxPizza.idl
+srv/SetMaxPizza.srv
+srv/SetMaxPizza_Request.msg
+srv/SetMaxPizza_Response.msg
+srv/SetParam.idl
+srv/SetParam.srv
+srv/SetParam_Request.msg
+srv/SetParam_Response.msg

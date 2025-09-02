@@ -1,0 +1,1 @@
+Invoking command in '/home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lworakan/Documents/GitHub/FRA502-LAB-6648v2/build/turtlesim_plus_interfaces -- -j32 -l32
